@@ -1,0 +1,40 @@
+
+h1 {
+    text-align: center;
+    color: #292727;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    transition: color 0.3s ease;
+}
+
+body {
+    background-color: #f3f2f2;
+}
+
+h1:hover {
+    color: #525252;
+}
+
+main {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 170px;
+}
+
+img {
+    width: 70px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
